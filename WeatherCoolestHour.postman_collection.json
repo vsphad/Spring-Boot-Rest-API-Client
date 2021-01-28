@@ -1,0 +1,37 @@
+{
+	"id": "f2e3d77c-75fc-e18e-96ca-83105b33c7cc",
+	"name": "WeatherCoolestHour",
+	"description": "",
+	"order": [
+		"e9ae71bf-6922-5cc0-d81f-03ae4d620d2e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611828117965,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "e9ae71bf-6922-5cc0-d81f-03ae4d620d2e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8888/v1/weather/gethourlyforecast/43215",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611828352157,
+			"name": "Get Coolest Hour by zip",
+			"description": "Get Coolest Hour by zip for county United State",
+			"collectionId": "f2e3d77c-75fc-e18e-96ca-83105b33c7cc",
+			"responses": []
+		}
+	]
+}
